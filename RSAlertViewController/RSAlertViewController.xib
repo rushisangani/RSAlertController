@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RSAlertViewController">
@@ -34,9 +35,6 @@
                                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
-                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                <rect key="frame" x="15" y="15" width="310" height="24"/>
-                                            </variation>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Label lawebfk k  iqwbkf  kuhewrkf  fbask fkibkf kasbifbkasbfk " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KFJ-3g-dtb">
                                             <rect key="frame" x="15" y="50" width="510" height="19.5"/>
@@ -44,9 +42,6 @@
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
-                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                <rect key="frame" x="15" y="54" width="310" height="41"/>
-                                            </variation>
                                         </label>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -59,9 +54,6 @@
                                         <constraint firstItem="KFJ-3g-dtb" firstAttribute="top" secondItem="aOa-rA-u4e" secondAttribute="bottom" constant="15" id="gAT-SL-ZBd"/>
                                         <constraint firstAttribute="bottom" secondItem="KFJ-3g-dtb" secondAttribute="bottom" constant="15" id="rbS-ri-rdT"/>
                                     </constraints>
-                                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                        <rect key="frame" x="0.0" y="0.0" width="340" height="111"/>
-                                    </variation>
                                 </view>
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -72,31 +64,22 @@
                                 <constraint firstItem="9hG-CF-STb" firstAttribute="leading" secondItem="iLb-tW-F8g" secondAttribute="leading" id="VQp-dZ-ut2"/>
                                 <constraint firstAttribute="trailing" secondItem="9hG-CF-STb" secondAttribute="trailing" id="VYV-se-SfS"/>
                             </constraints>
-                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                <rect key="frame" x="0.0" y="0.0" width="340" height="111"/>
-                            </variation>
                         </scrollView>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eiL-Tw-eVy">
-                            <rect key="frame" x="0.0" y="85.5" width="540" height="1"/>
+                            <rect key="frame" x="0.0" y="85" width="540" height="1"/>
                             <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="1" id="uxb-FG-XUv"/>
                             </constraints>
-                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                <rect key="frame" x="0.0" y="110" width="340" height="1"/>
-                            </variation>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SCK-aU-0ZU" userLabel="buttonsView">
-                            <rect key="frame" x="0.0" y="86.5" width="540" height="45"/>
+                            <rect key="frame" x="0.0" y="86" width="540" height="45"/>
                             <subviews>
                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="cKS-th-ivl">
                                     <rect key="frame" x="0.0" y="0.0" width="540" height="45"/>
                                     <constraints>
-                                        <constraint firstAttribute="height" constant="45" id="daJ-DI-bz9"/>
+                                        <constraint firstAttribute="height" constant="46" id="daJ-DI-bz9"/>
                                     </constraints>
-                                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                        <rect key="frame" x="0.0" y="0.0" width="340" height="50"/>
-                                    </variation>
                                 </stackView>
                             </subviews>
                             <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -106,9 +89,6 @@
                                 <constraint firstItem="cKS-th-ivl" firstAttribute="top" secondItem="SCK-aU-0ZU" secondAttribute="top" id="KcS-Ow-lxB"/>
                                 <constraint firstAttribute="trailing" secondItem="cKS-th-ivl" secondAttribute="trailing" id="tId-Fw-RVz"/>
                             </constraints>
-                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                <rect key="frame" x="0.0" y="111" width="340" height="50"/>
-                            </variation>
                         </view>
                     </subviews>
                     <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -131,18 +111,31 @@
                             <exclude reference="cou-U6-ymi"/>
                         </mask>
                     </variation>
-                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                        <rect key="frame" x="30" y="319.5" width="340" height="161"/>
-                    </variation>
                 </view>
             </subviews>
             <constraints>
                 <constraint firstItem="KCD-1z-Sf5" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Du3-vs-7Av"/>
+                <constraint firstItem="KCD-1z-Sf5" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.5" id="OhD-KJ-z99"/>
                 <constraint firstAttribute="trailing" secondItem="KCD-1z-Sf5" secondAttribute="trailing" constant="30" id="RgZ-0C-1xv"/>
+                <constraint firstItem="KCD-1z-Sf5" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="gfU-JM-i9d"/>
                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="KCD-1z-Sf5" secondAttribute="bottom" constant="40" id="mzp-n1-zRM"/>
                 <constraint firstItem="KCD-1z-Sf5" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="ovT-s1-zVQ"/>
                 <constraint firstItem="KCD-1z-Sf5" firstAttribute="top" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="45" id="xyo-Hx-mt1"/>
             </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="OhD-KJ-z99"/>
+                    <exclude reference="gfU-JM-i9d"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=regular">
+                <mask key="constraints">
+                    <include reference="OhD-KJ-z99"/>
+                    <exclude reference="RgZ-0C-1xv"/>
+                    <include reference="gfU-JM-i9d"/>
+                    <exclude reference="ovT-s1-zVQ"/>
+                </mask>
+            </variation>
         </view>
     </objects>
 </document>

@@ -27,7 +27,7 @@
     
     [[RSAlertViewController sharedInstance] showAlertWithTitle:@"Alert" message:@"Do you want to confirm?" buttons:@[@"Cancel", @"OK"] fromViewController:self withActionHandler:^(NSUInteger buttonIndex) {
       
-        NSLog(@"button clicked at Index %lu", buttonIndex);
+        NSLog(@"button clicked at Index %lu", (unsigned long)buttonIndex);
     }];
 }
 
@@ -35,7 +35,7 @@
     
     RSAlertViewController *alertView = [[RSAlertViewController sharedInstance] showAlertWithTitle:@"Success" message:@"Do you want to proceed?\n\nAnswer by selecting one of the three option.\n\nDo you want to proceed?\n\nAnswer by selecting one of the three option.\n\nDo you want to proceed?\n\nAnswer by selecting one of the three option.\n\nDo you want to proceed?\n\nAnswer by selecting one of the three option.\n\nDo you want to proceed?\n\nAnswer by selecting one of the three option.\n\nDo you want to proceed?\n\nAnswer by selecting one of the three option.\n\nDo you want to proceed?\n\nAnswer by selecting one of the three option.\n\nDo you want to proceed?\n\nAnswer by selecting one of the three option.\n\nDo you want to proceed?\n\nAnswer by selecting one of the three option." buttons:@[@"No", @"Yes", @"Never"] fromViewController:self withActionHandler:^(NSUInteger buttonIndex) {
         
-        NSLog(@"button clicked at Index %lu", buttonIndex);
+        NSLog(@"button clicked at Index %lu", (unsigned long)buttonIndex);
         
     }];
     
