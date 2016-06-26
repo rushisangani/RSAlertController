@@ -12,7 +12,7 @@ RSAlertController can be used to show Alert with one, two, three buttons from an
 - Show AlertView as a ViewController.
 - Customizable Title, message and buttons color.
 - Automatic buttons layout for more than two buttons.
-- Automatic dimiss on Tap outside.
+- Automatic dismiss on Tap outside.
 - Get button's click event inside block.
 
 ## How To Use
