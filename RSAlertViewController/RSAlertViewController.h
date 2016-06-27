@@ -25,6 +25,11 @@
 
 @interface RSAlertViewController : UIViewController
 
+/* outlets */
+
+@property (nonatomic, weak) IBOutlet UILabel *lblTitle;
+@property (nonatomic, weak) IBOutlet UILabel *lblMessage;
+
 /* properties */
 
 @property (nonatomic, strong) UIColor *titleColor;               // title color
@@ -44,5 +49,7 @@
 /* global method to show alert */
 
 -(instancetype)showAlertWithTitle:(NSString *)title message:(NSString *)message buttons:(NSArray *)buttonTitles fromViewController:(UIViewController *)viewController withActionHandler:(void(^)(NSUInteger buttonIndex))actionHandler;
+
+-(void)dismiss;
 
 @end

@@ -28,9 +28,6 @@
 
 @interface RSAlertViewController ()
 
-@property (nonatomic, weak) IBOutlet UILabel *lblTitle;
-@property (nonatomic, weak) IBOutlet UILabel *lblMessage;
-
 /* views */
 
 @property (nonatomic, strong) UIView *backGroundView;                // transparent background View
@@ -100,6 +97,10 @@
     [viewController presentViewController:self animated:NO completion:nil];
     
     return self;
+}
+
+-(void)dismiss {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 -(void)setupLayout {

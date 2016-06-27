@@ -20,7 +20,7 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KCD-1z-Sf5" userLabel="mainContainerView">
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KCD-1z-Sf5" userLabel="mainContainerView">
                     <rect key="frame" x="30" y="235" width="540" height="131.5"/>
                     <subviews>
                         <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iLb-tW-F8g">
@@ -72,10 +72,10 @@
                                 <constraint firstAttribute="height" constant="1" id="uxb-FG-XUv"/>
                             </constraints>
                         </view>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SCK-aU-0ZU" userLabel="buttonsView">
+                        <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SCK-aU-0ZU" userLabel="buttonsView">
                             <rect key="frame" x="0.0" y="86" width="540" height="45"/>
                             <subviews>
-                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="cKS-th-ivl">
+                                <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="cKS-th-ivl">
                                     <rect key="frame" x="0.0" y="0.0" width="540" height="45"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="46" id="daJ-DI-bz9"/>
